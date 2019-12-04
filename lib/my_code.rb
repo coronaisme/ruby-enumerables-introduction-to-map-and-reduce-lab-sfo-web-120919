@@ -43,7 +43,7 @@ def map_to_square(array)
 end
 
 def reduce_to_total(array, start_point)
-total = start_point if start_point != nil 
+total = start_point
 i = 0 
 
 while i < array.length do 
