@@ -4,6 +4,8 @@ def map(array, work)
   
   while i < array.length do
     work[array[i]]
-    
+    i +=1 
+  end
+    result
   
 end
