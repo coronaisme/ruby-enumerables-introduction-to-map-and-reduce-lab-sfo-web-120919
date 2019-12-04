@@ -3,8 +3,8 @@ def map(array, work)
   i = 0 
   
   while i < array.length do
-   work(array[i])
-   i += 1 
+   result << work(array[i])
+   i+= 1 
  end
  result
   
