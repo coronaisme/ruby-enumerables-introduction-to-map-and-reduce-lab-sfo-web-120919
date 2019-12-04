@@ -44,9 +44,6 @@ end
 
 def reduce_to_total(array, start_point)
 total = 0 
-if start_point === nil 
-  start_point = 0 
-end
 
 while start_point < array.length do 
   total += array[start_point]
