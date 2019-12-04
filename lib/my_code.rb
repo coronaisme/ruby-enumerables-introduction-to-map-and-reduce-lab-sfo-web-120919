@@ -61,7 +61,6 @@ def reduce_to_all_true(array)
       i+=1 
     else 
       return false
-      i+=1 
   end
 end
 end
