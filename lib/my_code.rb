@@ -14,4 +14,8 @@ def map_to_no_change(array)
   i = 0 
   
   while i < array.length do 
-    
+    result << array[i]
+    i+= 1 
+  end
+  result
+end
