@@ -59,6 +59,7 @@ def reduce_to_all_true(array)
     if array[i] === true 
       return true
     end
+    return false
   end
     
 
