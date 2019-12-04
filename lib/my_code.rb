@@ -8,3 +8,10 @@ def map_to_negativize(array)
   end
   result
 end
+
+def map_to_no_change(array)
+  result = []
+  i = 0 
+  
+  while i < array.length do 
+    
